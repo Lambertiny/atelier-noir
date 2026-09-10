@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Abstract brutalist architecture in warm stone tones">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d8d2c8"/><stop offset="1" stop-color="#b4aca0"/></linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8e867b"/><stop offset="1" stop-color="#5b5650"/></linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <rect y="760" width="1600" height="240" fill="#6d665e"/>
+  <path d="M160 760V300h530v460z" fill="#c8bfb2"/>
+  <path d="M690 760V180h540v580z" fill="url(#wall)"/>
+  <path d="M1230 760V380h230v380z" fill="#aca397"/>
+  <rect x="820" y="280" width="210" height="480" fill="#292827"/>
+  <rect x="250" y="420" width="250" height="340" fill="#3d3b38"/>
+  <path d="M690 180L980 65l250 115z" fill="#766f67"/>
+  <path d="M1030 280l200-100v580h-200z" fill="#4b4844" opacity=".9"/>
+  <circle cx="1335" cy="145" r="58" fill="#ebe7df" opacity=".8"/>
+</svg>
