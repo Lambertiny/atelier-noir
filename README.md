@@ -130,15 +130,11 @@ To preserve accessibility, motion-heavy interactions are reduced or simplified w
 
 ### Mobile
 
-#### Home Mobile
-![Home Mobile](./screenshots/home-mobile.png)
-
-#### Navigation Mobile
-![Navigation Mobile](./screenshots/navigation-mobile.png)
-
-#### Contact Mobile
-![Contact Mobile](./screenshots/contact-mobile.png)
-
+<p align="center">
+  <img src="./screenshots/home-mobile.png" width="30%" alt="Atelier Noir Home Mobile">
+  <img src="./screenshots/navigation-mobile.png" width="30%" alt="Atelier Noir Navigation Mobile">
+  <img src="./screenshots/contact-mobile.png" width="30%" alt="Atelier Noir Contact Mobile">
+</p>
 ---
 
 ## Project Structure
