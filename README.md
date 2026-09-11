@@ -1,46 +1,147 @@
 # Atelier Noir
 
-A responsive multi-page portfolio concept for a fictional contemporary architecture studio. The project was designed to feel like a real premium architecture practice rather than a generic front-end exercise.
+![Atelier Noir Cover](./screenshots/cover-atelier-noir.png)
 
-## Live concept
+A premium multi-page portfolio website concept for a fictional contemporary architecture studio.  
+Designed to feel like a real client-facing digital experience rather than a generic front-end exercise.
 
-**Atelier Noir** explores editorial web design, expressive typography, restrained motion and architecture-led storytelling across desktop and mobile.
+[Live Demo](https://lambertiny.github.io/atelier-noir/) · [View Repository](https://github.com/Lambertiny/atelier-noir)
+
+---
+
+## Overview
+
+**Atelier Noir** is a responsive editorial-style website created as a portfolio case study.  
+The project explores a refined balance between **typography, space, composition, motion and architecture-led storytelling**.
+
+The objective was to design and build a website that communicates the visual language of a contemporary architecture studio while also demonstrating strong front-end fundamentals and thoughtful UX decisions.
+
+---
+
+## Project Goals
+
+- Create a portfolio project that feels like a **real professional studio website**
+- Demonstrate skill in **web design, UI/UX and front-end development**
+- Build a responsive multi-page experience with strong **desktop and mobile presentation**
+- Use **motion and microinteractions** in a subtle, elegant way
+- Keep the project lightweight, semantic and deployable via **GitHub Pages**
+
+---
+
+## Live Demo
+
+**Website:**  
+https://lambertiny.github.io/atelier-noir/
+
+---
 
 ## Highlights
 
-- Six fully navigable pages
-- Responsive editorial layouts using CSS Grid and Flexbox
-- Mobile navigation with staggered motion
-- Scroll-triggered content reveals
-- Image mask reveals and subtle parallax
-- Cinematic same-site page transitions
+- Fully responsive multi-page website
+- Editorial-inspired layouts with strong typographic hierarchy
+- Refined desktop and mobile navigation
+- Scroll-triggered reveal animations
+- Subtle parallax and masked image reveals
 - Direction-aware header behavior on scroll
-- Refined project, service and form microinteractions
-- Semantic HTML and keyboard focus states
+- Cinematic page transitions
+- Service cards and form microinteractions
+- Semantic HTML structure
+- Keyboard focus states for accessibility
 - `prefers-reduced-motion` support
-- Lightweight vanilla JavaScript with no framework dependency
-- Local SVG artwork for a self-contained visual system
+- Lightweight implementation with no framework dependency
+
+---
+
+## UX & Design Direction
+
+The project was designed around a **contemporary editorial architecture aesthetic**.
+
+### Visual principles
+- Large serif display typography
+- Minimal interface language
+- Generous whitespace
+- Calm visual rhythm
+- Structured content hierarchy
+- Sophisticated neutral color palette
+
+### Experience goals
+- Make the user feel they are visiting a **real premium design studio**
+- Emphasize atmosphere and visual identity before technical complexity
+- Maintain clarity and usability across all screen sizes
+- Use motion only where it improves rhythm, orientation or emphasis
+
+---
+
+## Motion System
+
+Motion was intentionally designed to feel **restrained and elegant**.
+
+Included motion behaviors:
+- Staggered mobile navigation reveal
+- Scroll-based content entrance
+- Mask reveal transitions for images
+- Subtle parallax on selected visuals
+- Header hide/show behavior based on scroll direction
+- Smooth same-site page transitions
+
+To preserve accessibility, motion-heavy interactions are reduced or simplified when the user has **reduced motion preferences** enabled.
+
+---
 
 ## Pages
 
-- `index.html` — Home / selected work
+- `index.html` — Home
 - `projects.html` — Project archive
-- `project.html` — Casa Vetra case study
-- `studio.html` — Studio profile and principles
-- `services.html` — Capabilities
-- `contact.html` — Enquiry experience
+- `project.html` — Featured case study
+- `studio.html` — Studio profile
+- `services.html` — Services and capabilities
+- `contact.html` — Contact page
 
-## Tech stack
+---
 
-- HTML5
-- CSS3
-- Vanilla JavaScript
-- CSS Custom Properties
-- CSS Grid + Flexbox
-- Intersection Observer API
-- RequestAnimationFrame-powered parallax
+## Technologies Used
 
-## Project structure
+- **HTML5**
+- **CSS3**
+- **Vanilla JavaScript**
+- **CSS Custom Properties**
+- **CSS Grid**
+- **Flexbox**
+- **Intersection Observer API**
+- **requestAnimationFrame**
+- **GitHub Pages** for deployment
+
+---
+
+## Screenshots
+
+### Desktop
+
+#### Home
+![Home Desktop](./screenshots/home-desktop.png)
+
+#### Projects
+![Projects Desktop](./screenshots/projects-desktop.png)
+
+#### Project Case Study
+![Project Desktop](./screenshots/project-desktop.png)
+
+---
+
+### Mobile
+
+#### Home Mobile
+![Home Mobile](./screenshots/home-mobile.png)
+
+#### Navigation Mobile
+![Navigation Mobile](./screenshots/navigation-mobile.png)
+
+#### Contact Mobile
+![Contact Mobile](./screenshots/contact-mobile.png)
+
+---
+
+## Project Structure
 
 ```text
 atelier-noir/
@@ -65,26 +166,3 @@ atelier-noir/
 ├── contact.html
 ├── LICENSE
 └── README.md
-```
-
-## Design direction
-
-The interface combines a warm off-white canvas, charcoal typography, mineral neutrals and a restrained bronze accent. Cormorant Garamond carries the editorial display language while Manrope handles navigation and interface copy.
-
-Motion is deliberately quiet: it supports spatial rhythm without competing with the work. All animation-heavy behavior is disabled or simplified when a visitor prefers reduced motion.
-
-## Running locally
-
-No build step is required. Open `index.html` directly in a browser, or serve the folder with any static local server.
-
-## Deployment
-
-The project can be deployed directly to **GitHub Pages** or **Vercel** as a static site.
-
-## Portfolio note
-
-This is a fictional architecture brand and a portfolio case study. The identity, interface, layouts, SVG compositions and front-end implementation were created specifically for demonstrating digital design and development capability.
-
----
-
-**Portfolio project by Lambertiny**
