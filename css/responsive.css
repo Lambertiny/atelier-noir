@@ -268,3 +268,100 @@
     font-size: clamp(4rem, 18vw, 7rem);
   }
 }
+
+/* =========================================
+   MOBILE MENU — FINAL OVERRIDE
+   ========================================= */
+
+@media (max-width: 900px) {
+
+  .site-header,
+  .site-header.is-hidden,
+  .site-header.is-visible {
+    transform: none !important;
+    opacity: 1 !important;
+    mix-blend-mode: normal !important;
+    color: var(--ink) !important;
+  }
+
+  .site-header {
+    z-index: 9998 !important;
+  }
+
+  .brand,
+  .menu-toggle {
+    position: relative !important;
+    z-index: 10000 !important;
+  }
+
+  .nav-links {
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+
+    width: 100vw !important;
+    height: 100dvh !important;
+
+    z-index: 9999 !important;
+
+    background: var(--bg) !important;
+    color: var(--ink) !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: stretch !important;
+
+    padding: 6.5rem 1.5rem 2rem !important;
+    gap: 0 !important;
+
+    font-family: var(--serif) !important;
+    font-size: 2.15rem !important;
+    line-height: 1 !important;
+    letter-spacing: -0.02em !important;
+    text-transform: none !important;
+
+    overflow: hidden !important;
+
+    transform: translateY(-105%) !important;
+  }
+
+  .nav-links.is-open {
+    transform: translateY(0) !important;
+  }
+
+  .nav-links a {
+    width: 100% !important;
+    min-height: 0 !important;
+
+    padding: 1rem 0 !important;
+
+    border-top: 1px solid var(--line) !important;
+
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .nav-links a:last-child {
+    border-bottom: 1px solid var(--line) !important;
+  }
+
+  .nav-links a:hover,
+  .nav-links a:focus-visible {
+    padding-left: 0 !important;
+  }
+}
+
+@media (max-width: 620px) {
+
+  .nav-links {
+    padding: 6rem 1.25rem 2rem !important;
+    font-size: 2rem !important;
+  }
+
+  .nav-links a {
+    padding: .9rem 0 !important;
+  }
+}
